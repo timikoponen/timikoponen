@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.draft == false %}
+        <a class="post-link" href="{{ post.url | relative_url }}">
+            <li>
+            
+            {% if post.thumbnail %}
+            <div class="post-thumbnail"><img src="{{ post.thumbnail }}"></div>
+            {% endif %}
+            <div class="post-details">
+                <h2>{{ post.title | escape }}</h2>
+                <span class="post-excerpt"> {{ post.excerpt }}</span>
+                <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+            </div>
+        
+            </li>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>

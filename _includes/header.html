@@ -1,0 +1,9 @@
+<header class="site-header" role="banner">
+    <div class="wrapper">
+        <a class="site-title" href="{{ "/" | relative_url}}">
+            <span class="name">{{ site.title | escape }}</span>
+            <span class="description">{{ site.description | escape }}</span>
+        </a>
+        {% include navigation.html %}
+    </div>
+</header>

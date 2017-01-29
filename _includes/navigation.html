@@ -1,0 +1,10 @@
+<nav class="site-navigation">
+  <div class="trigger">
+      <a class="page-link{% if page.url == '/' %} current{% endif %}" href="{{ site.url }}">Blog</a>
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+      <a class="page-link{% if page.url == my_page.url %} current{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>
