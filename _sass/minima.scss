@@ -200,10 +200,8 @@ figure {
 
 .post-meta {
     color: $dark-gray;
-}
-
-.post .post-meta {
-    margin-top: 40px;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .social-media-icons {
@@ -325,6 +323,7 @@ footer {
 
 .share-buttons {
     display: flex;
+    margin: 40px 0;
     .fb_iframe_widget {
         bottom: 7px;
         margin-right: 10px;
