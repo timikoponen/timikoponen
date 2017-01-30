@@ -1,8 +1,7 @@
-# blog
-# https://timikoponen.github.io/
+https://timikoponen.github.io/
 
-# Serve locally
+Serve locally
 $ jekyll serve
 
-# Update dependecies
+Update dependecies
 $ bundle update
