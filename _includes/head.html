@@ -29,7 +29,6 @@
   <meta name="twitter:description" content="{{ share_description }}">
   {% if page.thumbnail %}<meta name="twitter:image" content="{{ site.url }}{{ page.thumbnail }}">{% endif %}
     
-  {% if jekyll.environment == 'production' and site.google_analytics %}{% include google-analytics.html %}{% endif %}
-    
+  {% include google-analytics.html %}
 </head>
 {% include fb-twitter.html %}
