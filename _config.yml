@@ -19,7 +19,7 @@ description: Crafting digital products and apps.
 long-description: >
   Personal blog of Timi Koponen. I spend my time designing digital things. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.timikoponen.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://timikoponen.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title
 
 # Build settings
