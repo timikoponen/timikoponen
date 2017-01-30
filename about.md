@@ -8,9 +8,9 @@ permalink: /about/
 
 *Hey and thanks for stopping by!*
 
-I'm a designer of digital things and I spend my time crafting digital products and apps. Here on this blog I'm collecting my personal projects, thoughts and works in progress.
+I'm a designer of digital things and I spend my time crafting products and apps. Here on this blog I'm collecting my personal projects, thoughts and works in progress.
 
-Currently I'm working as a UX Designer at [Reaktor](http://www.reaktor.com){:target="_blank"} and also studying for MA degree [New Media in Aalto University](http://medialab.aalto.fi/){:target="_blank"}.
+Currently I'm working as a UX Designer at [Reaktor](http://www.reaktor.com){:target="_blank"} and also studying for MA degree of [New Media in Aalto University](http://medialab.aalto.fi/){:target="_blank"}.
 
 I do enjoy doing and looking things from a design perspective. But it's also fun to actually make things work so I write some code too.
 
