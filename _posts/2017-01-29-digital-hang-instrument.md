@@ -2,7 +2,7 @@
 layout: post
 title:  Digital Hang Instrument
 thumbnail: /assets/hang.png
-excerpt: The Digital Hang Instrument is my project for composing with data flow programming course. Sound synthesis is done in Pure Data and the Hang like multitouch user interface for playing the 9 different notes.
+excerpt: The Digital Hang Instrument is my project for composing with data flow programming course. I did the sound synthesis in Pure Data and built a Hang like multitouch user interface on iPad for playing the 9 different notes.
 ---
 
 <iframe src="https://player.vimeo.com/video/201553429" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
