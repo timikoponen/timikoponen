@@ -28,26 +28,26 @@ Since this was my first sound synthesis I have ever done I needed to figure out 
 
 {% include image.html
             img="/assets/hang_sinewave_synthesis.png"
-            caption="My single sinewave oscillator" %}
+            caption="Single sinewave oscillator." %}
 
 I stumbled upon [Martin Brinkmann's Pure Data instruments](http://www.martin-brinkmann.de/pd-patches.html) where I found the random_hang_perc1.pd patch from the undocumented instruments zip-file. I studied his work closely and how he had based it on noise synthesis and what type of values he had used to produce the percussive sound.
 
 {% include image.html
             img="/assets/hang_noise_synthesis.png"
-            caption="My final version of the noise oscillator" %}
+            caption="Final version of the noise oscillator." %}
 
 Then in the final version I produced a single hang sound by combining 5 sine wave synthesizers and 8 noise synthesizers seen on the patch below. In the end I just selected a good sounding values by toggling the sounds on and off and tried to fine-tune the values by ear. Both synthesis patches take five input values: played note, velocity, level of the individual sound, frequency multiplier and decay.
 
 {% include image.html
             img="/assets/hang_multiple_synthesis.png"
-            caption="My final version of the noise oscillator" %}
+            caption="5 sine wave and 8 noise synthesizers." %}
 
 
 On the iPad side I wanted to keep the user interface really simple so it only consists 9 of dots and by touching those it plays the corresponding notes. To make it feel more lively I added small animations when the dots are played and also made them always move a little bit.
 
 {% include image.html
             img="/assets/hang_gif.gif"
-            caption="Small animations that play visualise the sound." %}
+            caption="Small animations visualize the touches and the sound." %}
 
 
 As a summary I really liked how the project turned out. The sound it produces is interesting and somewhat close what I had initially thought out. The user interface is minimalistic and the small animations give emphasis to the sound itself. And it's fun to play too! I used total 4 days for the sound design and the iOS coding. Roughly 50% for each. And before the actual work I used one day beforehand to test the implementation of Pure Data into iOS.
