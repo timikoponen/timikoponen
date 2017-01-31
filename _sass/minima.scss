@@ -135,6 +135,17 @@ h5, h6 {
         max-width: 100%;
         height: auto;
     }
+    a {
+        color: $text-color;
+        text-decoration: none;
+        border-bottom: 1px solid $text-color;
+        cursor: pointer;
+        &:hover {
+            color: $dark-gray;
+            border-bottom: 1px solid $dark-gray;
+            transition: none;
+        }
+    }
 }
 
 .post-header {

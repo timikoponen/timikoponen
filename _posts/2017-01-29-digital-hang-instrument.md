@@ -12,7 +12,7 @@ excerpt: The Digital Hang Instrument is my project for composing with data flow 
 
 *The Digital Hang Instrument is my project for composing with data flow programming course.*
 
-I got my inspiration from [the original Hang instrument](https://en.wikipedia.org/wiki/Hang_(instrument)). The Hang is an steel pan instrument that you play on your lap and it has quite an unique and interesting sound. I wanted to create my own digital version of it, without trying to mimic or copy it directly but rather to capture the same aesthetics and elegance it has.
+I got my inspiration from [the original Hang instrument](https://en.wikipedia.org/wiki/Hang_(instrument)). The Hang is a steel pan instrument that you play on your lap and it has quite an unique and interesting sound. I wanted to create my own digital version of it, without trying to mimic or copy it directly but rather to capture the same aesthetics and elegance it has.
 
 The project consisted of two parts. The first part is the multitouch user interface built on iPad where you can play the 9 different notes. Another part was building the sound synthesis with [Pure Data](https://puredata.info/) which you could then play with the iPad app itself. I wanted the instrument to sound calm and peaceful, but still vivid and colourful at the same time. Inspired by the sound of the Hang I needed to have the high hitting sound in the beginning and a long resonating tail afterwards.
 
@@ -50,4 +50,4 @@ On the iPad side I wanted to keep the user interface really simple so it only co
             caption="Small animations that play visualise the sound." %}
 
 
-As a summary I really liked how the project turned out. The sound it produces is interesting and somewhat close what I had initially thought out. The user interface is minimalistic and the small animations give emphasis to the sound itself. I used total 4 days for the sound design and the iOS coding. Roughly 50% for each. And before the actual work I used one day beforehand to test the implementation of Pure Data into iOS.
+As a summary I really liked how the project turned out. The sound it produces is interesting and somewhat close what I had initially thought out. The user interface is minimalistic and the small animations give emphasis to the sound itself. And it's fun to play too! I used total 4 days for the sound design and the iOS coding. Roughly 50% for each. And before the actual work I used one day beforehand to test the implementation of Pure Data into iOS.
