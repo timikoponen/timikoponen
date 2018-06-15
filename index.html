@@ -82,8 +82,19 @@
             .social-media-icons {
                 margin-top: 30px;
             }
-            .social-media-icons a { display: inline-block; margin-right: 8px; border-bottom: none; }
-            .social-media-icons a:hover { border-bottom: none; }
+            .social-media-icons a { 
+                display: inline-block; 
+                margin-right: 8px; 
+                border-bottom: none; 
+                transition-property: transform;
+                transition-duration: 0.25s;
+                transition-property: transform;
+                transition-timing-function: ease-out;
+            }
+            .social-media-icons a:hover { 
+                border-bottom: none;
+                transform: translateY(-5px);
+            }
             .social-media-icons svg { fill: #FFFFFF; }
             .social-media-icons svg:hover { fill: #CCCCCC; }
 
